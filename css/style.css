@@ -1,0 +1,116 @@
+/* style.css */
+:root {
+    --main-color: #B8AFE6;
+    --text-color: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 타이틀 영역 */ 
+#bg {
+    width: 375px;
+    height: 530px;
+    background: #fff;
+    background-image: url(../images/wedding-img.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+#title h2 {
+    padding: 15px;
+    text-align: center;
+}
+
+#title .address {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: normal;
+}
+
+/* 인사말 */
+#intro {
+    text-align: center;
+    background: var(--main-color);
+    color: var(--text-color);
+    padding-top: 26px;
+    padding-bottom: 26px;
+}
+
+#intro .intro-box {
+    font-size: 16px;
+    color: var(--text-color);
+    margin-bottom: 35px;
+}
+
+#intro p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+
+#intro .guest-box {
+    margin-bottom: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#intro .guest-box .guest p {
+    font-size: 14px;
+    font-weight: normal;
+}
+  
+#intro .guest-box .guest b {
+    font-size: 16px;
+    font-weight: bold;
+}
+  
+#intro .guest {
+    margin-right: 20px;
+}
+
+#intro a img{
+    width: 48px;
+    height: 48px;
+    margin-bottom: 10px;
+}
+
+/* 방명록 */
+#guest-book {
+    background: #fff;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.box {
+    width: 150px;
+    height: 30px;
+    outline: 1px solid #000;
+    border-radius: 10%;
+    margin-left: 111px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.guest-box .input text{
+    width: 324px;
+    height: 320px;
+    outline: 1px solid #000;
+    border-radius: 10%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
